@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Read it!"
+                android:fontFamily="@font/katuri"
+                android:textColor="#000000"
+                android:textSize="45dp"></TextView>
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typeone"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n음절 개수 세기\n\n단어를 듣고 주어진 단어를 차근차근 듣고 글자 수만큼 사물을 터치해보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typetwo"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n음소 분리 O/X\n\n단어를 듣고 주어진 음소가 단어에 포함되는지 생각해보고 O/X를 선택해보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typethree"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n음절 길이 비교\n\n두 단어를 잘 들어보고 길이가 더 긴 단어의 그림을 선택해보세요! "
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typefour"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n첫번째 음절이 같은 그림 찾기\n\n주어진 단어의 첫 음절과 같은 그림을 선택해보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typefive"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n단어의 음소 개수 맞춰보기\n\n주어진 음소의 개수와 동일한 단어를 선택해보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typesix"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n음소 분리 선택형\n\n흩어져 있는 자음과 모음을 터치해서 단어를 완성시켜 보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typeseven"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n파닉스\n\n단어를 듣고 해당 문장을 읽어보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+                android:drawableRight="@drawable/coding_typeeight"
+                android:fontFamily="@font/katuri"
+                android:gravity="left"
+                android:lineSpacingMultiplier="1.3"
+                android:text="\n독해력 객관식\n\n주어진 문제를 보고 정답을 선택해주세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                app:backgroundTint="#52FFEB3B" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

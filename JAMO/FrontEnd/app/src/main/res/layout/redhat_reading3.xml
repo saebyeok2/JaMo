@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red11">
+
+
+    <Button
+        android:id="@+id/answer1_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   1.의사"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/answer2_btn"
+        app:layout_constraintEnd_toEndOf="@+id/answer2_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer2_btn"
+        app:layout_constraintTop_toBottomOf="@+id/problem"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/answer2_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="152dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   2.여우"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/answer3_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer3_btn" />
+
+    <Button
+        android:id="@+id/answer4_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   4.늑대"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/answer3_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   3.수리공"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/answer4_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer4_btn" />
+
+    <ImageView
+        android:id="@+id/problem"
+        android:layout_width="760dp"
+        android:layout_height="348dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer4_btn"
+        app:srcCompat="@drawable/reading_balloontwo"
+        tools:layout_editor_absoluteX="-56dp" />
+
+    <ImageView
+        android:id="@+id/toolbar_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toolbar_menu" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="566dp"
+        android:layout_height="338dp"
+        android:fontFamily="@font/katuri"
+        android:text="\n빨간 모자 소녀의 집에는 누가 찾아왔나요?\n\n빨간 모자 소녀는 할머니와 살고 있었어요. 어느 날 늑대가 집에 찾아왔어요. 늑대는 빨간모자 소녀의 집에 들어가려고 했지만 문단속을 철저히 했기 때문에 늑대는 들어오지 못했어요."
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/problem"
+        app:layout_constraintEnd_toEndOf="@+id/problem"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="@+id/problem"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_menu_btn"
+        app:layout_constraintVertical_bias="0.81" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

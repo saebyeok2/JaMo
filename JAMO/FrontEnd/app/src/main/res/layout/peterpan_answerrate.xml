@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/peterpan_answerratebg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/katuri"
+        android:text="피터팬 정답률"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="50dp"
+        android:textStyle="bold"></TextView>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:progressDrawable="@drawable/progressbarcustom"
+                android:id="@+id/syllable_count"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100">
+            </ProgressBar>
+
+
+            <TextView
+                android:id="@+id/syllable_count_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="음절 개수 세기 훈련"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/katuri"
+                android:textSize="17sp"></TextView>
+
+            <ProgressBar
+                android:id="@+id/phoneme_recognition"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100"
+                android:progressDrawable="@drawable/progressbarcustom">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/phoneme_recognition_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="음운 인식 훈련"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:fontFamily="@font/katuri"
+                ></TextView>
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progressbarcustom"
+                android:id="@+id/length_comparison"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/length_comparison_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text=" 길이 비교 훈련"
+                android:textColor="#FFFFFF"
+                android:textSize="17sp"
+                android:fontFamily="@font/katuri"
+                >
+
+            </TextView>
+
+            <ProgressBar
+                android:id="@+id/same_syllable"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100"
+                android:progressDrawable="@drawable/progressbarcustom">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/same_syllable_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="첫음절이 같은 단어 찾기 훈련"
+                android:textSize="17sp"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/katuri"
+                ></TextView>
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progressbarcustom"
+                android:id="@+id/phonological_count"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/phonological_count_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="특정 음소 개수 단어찾기 훈련"
+                android:textSize="17sp"
+                android:fontFamily="@font/katuri"
+                android:textColor="#FFFFFF">
+
+            </TextView>
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progressbarcustom"
+                android:id="@+id/phoneme_separation"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/phoneme_separation_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text=" 자소 분리 훈련"
+                android:textSize="17sp"
+                android:fontFamily="@font/katuri"
+                android:textColor="#FFFFFF">
+
+            </TextView>
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progressbarcustom"
+                android:id="@+id/phonics"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/phonics_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="파닉스 훈련"
+                android:textSize="17sp"
+                android:fontFamily="@font/katuri"
+                android:textColor="#FFFFFF">
+
+            </TextView>
+
+            <ProgressBar
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progressDrawable="@drawable/progressbarcustom"
+                android:id="@+id/literacy"
+                android:layout_width="1100dp"
+                android:layout_gravity="center"
+                android:layout_height="25dp"
+                android:layout_marginTop="30dp"
+                android:max="100">
+            </ProgressBar>
+
+
+            <TextView
+                android:id="@+id/literacy_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="문해력 훈련"
+                android:textSize="17sp"
+                android:fontFamily="@font/katuri"
+                android:textColor="@color/black">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

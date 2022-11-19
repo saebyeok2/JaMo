@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red11">
+
+
+    <Button
+        android:id="@+id/answer1_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   1.사람을 물지 않기 때문에"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/answer2_btn"
+        app:layout_constraintEnd_toEndOf="@+id/answer2_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer2_btn"
+        app:layout_constraintTop_toBottomOf="@+id/problem"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/answer2_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="152dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   2.사람들에게 다가오지 않아서"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/answer3_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer3_btn" />
+
+    <Button
+        android:id="@+id/answer4_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   4.다른 동물과 사이가 안좋아서"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/answer3_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   3.야생동물이기 때문에"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/answer4_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer4_btn" />
+
+    <ImageView
+        android:id="@+id/problem"
+        android:layout_width="760dp"
+        android:layout_height="348dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer4_btn"
+        app:srcCompat="@drawable/reading_balloontwo"
+        tools:layout_editor_absoluteX="-56dp" />
+
+    <ImageView
+        android:id="@+id/toolbar_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toolbar_menu" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="566dp"
+        android:layout_height="338dp"
+        android:fontFamily="@font/katuri"
+        android:text="\n늑대를 길들이기 힘든 이유가 무엇일까요?\n\n늑대는 새끼를 낳아서 기르는 포유류 과의 동물이예요. 늑대는 집단 생활을 해요. 늑대는 개와 비슷하게 생겼지만 야생동물이기 때문에 사람이 길들이기는 쉽지 않아요. "
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/problem"
+        app:layout_constraintEnd_toEndOf="@+id/problem"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="@+id/problem"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_menu_btn"
+        app:layout_constraintVertical_bias="0.81" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

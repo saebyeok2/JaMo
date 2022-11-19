@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ct_background"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/greenlp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"></ImageView>
+
+
+    <ImageButton
+        android:id="@+id/planet1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="596dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toEndOf="@+id/planet6"
+        app:layout_constraintTop_toBottomOf="@+id/ct_count"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <ImageButton
+        android:id="@+id/planet2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginBottom="119dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toTopOf="@+id/planet5"
+        app:layout_constraintEnd_toEndOf="@+id/planet5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/planet3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="248dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toEndOf="@+id/planet5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/planet4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="52dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintEnd_toEndOf="@+id/ct_sound"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/planet5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="270dp"
+        android:layout_marginBottom="174dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toTopOf="@+id/planet7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planet2" />
+
+    <ImageButton
+        android:id="@+id/planet6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="74dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/planet5"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planet10"
+        app:layout_constraintVertical_bias="0.262" />
+
+    <ImageButton
+        android:id="@+id/planet7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="285dp"
+        android:layout_marginEnd="689dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/planet11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <ImageButton
+        android:id="@+id/planet8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="622dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/planet14"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planet6"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <ImageButton
+        android:id="@+id/planet9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="89dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toEndOf="@+id/ct_sound"
+        app:layout_constraintTop_toTopOf="@+id/planet13" />
+
+    <ImageButton
+        android:id="@+id/planet10"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="140dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+
+    <ImageButton
+        android:id="@+id/planet11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="392dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toEndOf="@+id/planet1"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_menu_btn" />
+
+    <ImageButton
+        android:id="@+id/planet12"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="60dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toTopOf="@+id/planet1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toEndOf="@+id/ct_count"
+        app:layout_constraintTop_toBottomOf="@+id/planet3" />
+
+    <ImageButton
+        android:id="@+id/planet13"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="389dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toTopOf="@+id/ct_sound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/planet2"
+        app:layout_constraintTop_toTopOf="@+id/planet4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/planet14"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="800dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="68dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ct_planet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ct_check"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/planet8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ct_count"
+        app:layout_constraintVertical_bias="0.858" />
+
+
+    <ImageButton
+        android:id="@+id/ct_check"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/checking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ct_sound"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="277dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/speechballoon2"
+        app:tint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.289" />
+
+    <ImageButton
+        android:id="@+id/ct_count"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginEnd="277dp"
+        android:background="@android:color/transparent"
+
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="fitXY"
+        android:src="@drawable/speechballoon"
+        app:tint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/ct_sound"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.739"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ct_sound"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:background="@drawable/speaker"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/ct_sound"
+        app:layout_constraintEnd_toEndOf="@+id/ct_sound"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/ct_sound"
+        app:layout_constraintTop_toTopOf="@+id/ct_sound"
+        app:layout_constraintVertical_bias="0.494"></ImageView>
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/katuri"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ct_count"
+        app:layout_constraintEnd_toEndOf="@+id/ct_count"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/ct_count"
+        app:layout_constraintTop_toTopOf="@+id/ct_count"
+        app:layout_constraintVertical_bias="0.479" />
+
+    <ImageButton
+        android:id="@+id/Backbtn2"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="4dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/ct_check"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ct_check"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/toolbar_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toEndOf="@+id/planet9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toolbar_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

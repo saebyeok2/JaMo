@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back">
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ADFFFFFF"
+        android:fontFamily="@font/katuri"
+        android:gravity="center"
+        android:text="Read it!"
+        android:textColor="#000000"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"></TextView>
+
+    <Button
+        android:id="@+id/abtn"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#FDB9B4"
+        android:drawableBottom="@drawable/main_a"
+        android:fontFamily="@font/katuri"
+        android:text="훈련 \n하러가기"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/dbtn"
+        app:layout_constraintEnd_toStartOf="@+id/bbtn"
+        app:layout_constraintHorizontal_bias="0.852"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/bbtn"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginEnd="320dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#FBCA7F"
+        android:drawableBottom="@drawable/main_b"
+        android:fontFamily="@font/katuri"
+        android:text="진단 검사\n하러가기"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/abtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/abtn" />
+
+    <Button
+        android:id="@+id/cbtn"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#FDEE64"
+        android:drawableBottom="@drawable/main_c"
+        android:fontFamily="@font/katuri"
+        android:text="훈련 테마별 \n정답률"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dbtn"
+        app:layout_constraintEnd_toStartOf="@+id/dbtn"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dbtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/dbtn"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#DFEA73"
+        android:drawableBottom="@drawable/main_d"
+        android:fontFamily="@font/katuri"
+        android:text="훈련 테마별\n진행도"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ebtn"
+        app:layout_constraintEnd_toStartOf="@+id/ebtn"
+        app:layout_constraintTop_toTopOf="@+id/ebtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/ebtn"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="75dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#A8E0FA"
+        android:drawableBottom="@drawable/main_e"
+        android:fontFamily="@font/katuri"
+        android:text="진단검사\n유형별 결과"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fbtn"
+        app:layout_constraintEnd_toStartOf="@+id/fbtn"
+        app:layout_constraintTop_toTopOf="@+id/fbtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/fbtn"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/round_btn"
+        android:drawableBottom="@drawable/main_f"
+        android:fontFamily="@font/katuri"
+        android:text="진단검사\n유형별 향상도"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

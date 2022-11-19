@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/result_progress"
+        android:icon="@drawable/progress"
+        android:title="훈련 진행도" />
+    <item
+        android:id="@+id/action_menu2"
+        android:icon="@drawable/correct_rate"
+        android:title="훈련 정답률" />
+    <item
+        android:id="@+id/action_menu3"
+        android:icon="@drawable/test"
+        android:title="진단검사하기" />
+
+</menu>

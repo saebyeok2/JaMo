@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    //스크롤뷰
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:text="Ja Mo!"
+                android:textColor="#000000"
+                android:textSize="45dp"></TextView>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+
+                android:gravity="left"
+                android:text="\n음운 개수 세기\n\n단어를 듣고 주어진 단어의 음운을 차근차근 생각해보고 개수만큼 사물을 터치해보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:backgroundTint="#32C4DFA4" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+
+                android:gravity="left"
+                android:text="\n음운 분리 O/X\n\n단어를 듣고 주어진 음운이 단어에 포함되는지 생각해보고 O/X를 선택해보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:backgroundTint="#32C4DFA4" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+
+                android:gravity="left"
+                android:text="\n음운 분리 선택형\n\n흩어져 있는 자음과 모음을 터치해서 단어를 완성시켜 보세요! "
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:backgroundTint="#32C4DFA4" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+
+                android:gravity="left"
+                android:text="\n첫번째 음운이 같은 그림 찾기\n\n주어진 단어의 첫 음절과 같은 그림을 선택해보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:backgroundTint="#32C4DFA4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+
+                android:gravity="left"
+                android:text="\n파닉스\n\n단어를 듣고 해당 단어를 써보세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:backgroundTint="#32C4DFA4" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:backgroundTint="#F5F0F1E4"
+
+                android:gravity="left"
+                android:text="\n독해력 객관식\n\n주어진 문제를 보고 정답을 선택해주세요!"
+                android:textColor="#000000"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                app:backgroundTint="#32C4DFA4" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

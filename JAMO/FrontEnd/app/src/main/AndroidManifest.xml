@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jamofront">
+    package="com.tistory.link2me.okhttplogin">
+
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        android:name=".KaKaoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app"
+        android:label="Read it!"
+        android:roundIcon="@mipmap/ic_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JamoFront">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth" -->
+                <data
+                    android:host="oauth"
+                    android:scheme="kakaoe7a819018aa1f1669b3d0b26ce29caad" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".WordTest"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".main_theme_answerrate"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Littleprince.Little_Prince_AnswerRate_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name=".main_theme_process"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".Home_main"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".myenhencActivity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_number1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_number2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_number3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_number4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_number5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_SelectChoose1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_SelectChoose2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_SelectChoose3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_SelectChoose4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_SelectChoose5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".select_theme1"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".select_theme2"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".select_type2"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".select_type1"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_length1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_length2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_length3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_length4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_length5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_include1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_include2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_include3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_include4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_include5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_Samefind1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_Samefind2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_Samefind3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_Samefind4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_Samefind5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_Progress_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_count1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_count2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_count3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_count4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_count5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_reading1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_reading2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_reading3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_reading4_Acitivty"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_reading5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_phanics1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_phanics2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_phanics3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_phanics4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Littleprince_phanics5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name=".Test_ReadUnderstand">
+        </activity>
+
+        <activity android:name=".Listen_Test"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".SpeakTest"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".line.Test_Result"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_ReadingTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_PhanicsTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_SelectchooseTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_NumberTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_SamefindTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_LengthTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_IncludeTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.example.jamofront.Littleprince.Little_Prince_CountTutorial_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_count1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_count2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_count3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_count4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_count5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_length1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_length2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_length3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_length4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_length5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_include1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_include2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_include3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_include4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_include5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name=".RedHat.RedHat_number1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_number2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_number3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_number4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_number5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_reading1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_reading2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_reading3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_reading4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_reading5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_samefind1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_samefind2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_samefind3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_samefind4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_samefind5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_phonics1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_phonics2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_phonics3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_phonics4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_phonics5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_selectchoose1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".RedHat.RedHat_selectchoose2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_selectchoose3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_selectchoose4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_selectchoose5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".PeterPan.PeterPan_Count1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Count2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Count3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Count4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Count5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+
+        <activity android:name=".PeterPan.PeterPan_Length1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Length2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Length3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Length4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Length5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".PeterPan.PeterPan_Phonics1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".PeterPan.PeterPan_Phonics2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Phonics3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Phonics4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Phonics5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+
+        <activity android:name=".PeterPan.PeterPan_Number1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Number2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Number3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Number4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Number5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".PeterPan.PeterPan_SelectChoose1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_SelectChoose2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_SelectChoose3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_SelectChoose4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_SelectChoose5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name=".PeterPan.PeterPan_Samefind1_Activty"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Samefind2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Samefind3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Samefind4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Samefind5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".PeterPan.PeterPan_include1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_include2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_include3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_include4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_include5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity android:name=".PeterPan.PeterPan_Reading1_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Reading2_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Reading3_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Reading4_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Reading5_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".select_peterpantype"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".line.Test_Result_homeVer"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".MyenhenceHome"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".Select_redhoodtype"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_AnswerRate_Acitivty"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_Answerrate"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".RedHat.RedHat_progress"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".PeterPan.PeterPan_Progress_Activity"
+            android:screenOrientation="landscape">
+        </activity>
+        
+    </application>
+</manifest>

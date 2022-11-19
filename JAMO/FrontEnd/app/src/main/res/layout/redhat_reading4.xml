@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red11">
+
+
+    <Button
+        android:id="@+id/answer1_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   1.소녀가 기특해서"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/answer2_btn"
+        app:layout_constraintEnd_toEndOf="@+id/answer2_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer2_btn"
+        app:layout_constraintTop_toBottomOf="@+id/problem"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/answer2_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="152dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   2.소녀가 불쌍해서"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/answer3_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer3_btn" />
+
+    <Button
+        android:id="@+id/answer4_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   4.소녀가 부탁해서"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/answer3_btn"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#F4F2DF"
+        android:fontFamily="@font/katuri"
+        android:gravity="left"
+        android:text="   3.소녀가 질투나서"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/answer4_btn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/answer4_btn" />
+
+    <ImageView
+        android:id="@+id/problem"
+        android:layout_width="760dp"
+        android:layout_height="348dp"
+        android:layout_marginBottom="272dp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer4_btn"
+        app:srcCompat="@drawable/reading_balloontwo"
+        tools:layout_editor_absoluteX="-56dp" />
+
+    <ImageView
+        android:id="@+id/toolbar_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/toolbar_menu" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="566dp"
+        android:layout_height="338dp"
+        android:fontFamily="@font/katuri"
+        android:text="\n마을 사람들은 왜 소녀에게 옷과 음식을 가져다 주었나요?\n\n동네 사람들에게 항상 칭찬을 받는 한 소녀가 있었어요. 그 소녀는 혼자 할머니를 모시며 살고 있었어요. 마을 사람들은 소녀를 보며  기특하다면서 옷과 음식을 가져다 주었어요."
+        android:textColor="@color/black"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="@+id/problem"
+        app:layout_constraintEnd_toEndOf="@+id/problem"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="@+id/problem"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_menu_btn"
+        app:layout_constraintVertical_bias="0.81" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

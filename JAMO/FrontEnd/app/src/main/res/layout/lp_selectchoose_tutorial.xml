@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trans_lpselectchoose">
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="223dp"
+        android:layout_height="193dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.297"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887"
+        app:srcCompat="@drawable/up" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="250dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="172dp"
+        android:fontFamily="@font/katuri"
+        android:lineSpacingMultiplier="1.3"
+        android:text="소리 버튼을 눌러\n주어진 단어를 잘 듣고"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="219dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="888dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/right" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="383dp"
+        android:layout_height="239dp"
+        android:fontFamily="@font/katuri"
+
+
+        android:lineSpacingMultiplier="1.3"
+        android:text="주어진 단어의 음소들을 선택하여 아래 빈칸을 채우고\n\n오른쪽 아래\n체크 버튼을 눌러보세요!"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/start_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="285dp"
+        android:layout_height="90dp"
+        android:layout_gravity="right"
+        android:layout_marginBottom="39dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="@font/katuri"
+        android:text="이제 시작해볼까요?"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

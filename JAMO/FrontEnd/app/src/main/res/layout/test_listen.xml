@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/test_back">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="1014dp"
+            android:layout_height="180dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/katuri"
+            android:gravity="center|center_vertical"
+            android:text="               3.듣고 이해하기"
+            android:textSize="50dp" />
+
+        <ImageButton
+            android:id="@+id/skiplisten"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="50dp"
+            android:background="#00FFFFFF"
+            app:srcCompat="@drawable/skipicon" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/Listen_test_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/katuri"
+        android:gravity="center"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:text="지문을 듣고 물음에 답하시오."
+
+        android:textColor="#000000"
+        android:textSize="35sp"></TextView>
+
+    <ImageButton
+        android:id="@+id/ListenBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/speaker" />
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Listen_test_Pb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/katuri"
+                android:paddingLeft="100dp"
+                android:paddingTop="80dp"
+                android:paddingRight="50dp"
+                android:text="문제1"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/A.1"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="A." />
+
+            <Button
+                android:id="@+id/B.1"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="B." />
+
+            <Button
+                android:id="@+id/C.1"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="@font/katuri"
+                android:layout_marginTop="10dp"
+                android:text="C."
+                android:background="#95FFEB3B" />
+
+            <Button
+                android:id="@+id/D.1"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="D." />
+
+
+            <TextView
+                android:id="@+id/Listen_test_Pb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/katuri"
+                android:paddingLeft="100dp"
+                android:paddingTop="80dp"
+                android:paddingRight="50dp"
+                android:text="문제 2"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/A.2"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="A." />
+
+            <Button
+                android:id="@+id/B.2"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="B." />
+
+            <Button
+                android:id="@+id/C.2"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="C." />
+
+            <Button
+                android:id="@+id/D.2"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="D." />
+
+
+            <TextView
+                android:id="@+id/Listen_test_Pb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/katuri"
+                android:paddingLeft="100dp"
+                android:paddingTop="80dp"
+                android:paddingRight="50dp"
+                android:text="문제 3"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/A.3"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="A." />
+
+            <Button
+                android:id="@+id/B.3"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="B." />
+
+            <Button
+                android:id="@+id/C.3"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="C." />
+
+            <Button
+                android:id="@+id/D.3"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="D." />
+
+
+            <TextView
+                android:id="@+id/Listen_test_Pb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/katuri"
+                android:paddingLeft="100dp"
+                android:paddingTop="80dp"
+                android:paddingRight="50dp"
+                android:text="문제 4"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/A.4"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="A." />
+
+            <Button
+                android:id="@+id/B.4"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="B." />
+
+            <Button
+                android:id="@+id/C.4"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="C." />
+
+            <Button
+                android:id="@+id/D.4"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="D." />
+
+
+            <TextView
+                android:id="@+id/Listen_test_Pb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/katuri"
+                android:paddingLeft="100dp"
+                android:paddingTop="80dp"
+                android:paddingRight="50dp"
+                android:text="문제 5"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/A.5"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:fontFamily="@font/katuri"
+                android:text="A." />
+
+            <Button
+                android:id="@+id/B.5"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="B." />
+
+            <Button
+                android:id="@+id/C.5"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="C." />
+
+            <Button
+                android:id="@+id/D.5"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="50dp"
+                android:background="#95FFEB3B"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/katuri"
+                android:text="D." />
+
+            <Button
+                android:id="@+id/NextPageButton"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="50dp"
+                android:background="#C34EA339"
+                android:fontFamily="@font/katuri"
+                android:text="다음 페이지"
+                android:textSize="30dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

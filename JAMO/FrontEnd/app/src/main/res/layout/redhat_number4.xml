@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/red4">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="0dp"
+        android:layout_height="243dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/speechballoon3" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/katuri"
+        android:text="7"
+        android:textColor="@color/black"
+        android:textSize="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView17"
+        app:layout_constraintEnd_toEndOf="@+id/imageView17"
+        app:layout_constraintStart_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+    <Button
+        android:id="@+id/answer4_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/katuri"
+        android:text="4.신화"
+        android:textColor="@color/black"
+        android:textSize="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer3_btn"
+        app:layout_constraintEnd_toEndOf="@+id/answer2_btn"
+        app:layout_constraintStart_toEndOf="@+id/answer3_btn"
+        app:layout_constraintTop_toTopOf="@+id/answer3_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/answer3_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:fontFamily="@font/katuri"
+        android:text="3.목소리"
+        android:textColor="@color/black"
+        android:textSize="55dp"
+        app:layout_constraintBottom_toTopOf="@+id/sound3_btn"
+        app:layout_constraintEnd_toStartOf="@+id/sound2_btn"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="@+id/answer1_btn"
+        app:layout_constraintTop_toBottomOf="@+id/sound1_btn"
+        app:layout_constraintVertical_bias="0.4" />
+
+    <Button
+        android:id="@+id/answer1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="412dp"
+        android:fontFamily="@font/katuri"
+        android:text="1.도끼"
+        android:textColor="@color/black"
+        android:textSize="55dp"
+        app:layout_constraintBottom_toTopOf="@+id/sound1_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <ImageButton
+        android:id="@+id/sound2_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="68dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toTopOf="@+id/sound4_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toEndOf="@+id/sound1_btn"
+        app:srcCompat="@drawable/speaker" />
+
+    <ImageButton
+        android:id="@+id/sound1_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/sound2_btn"
+        app:layout_constraintEnd_toEndOf="@+id/answer1_btn"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toEndOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/sound2_btn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/speaker" />
+
+    <ImageButton
+        android:id="@+id/sound3_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/sound4_btn"
+        app:layout_constraintEnd_toEndOf="@+id/answer3_btn"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="@+id/answer3_btn"
+        app:srcCompat="@drawable/speaker" />
+
+    <ImageButton
+        android:id="@+id/sound4_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="312dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="@+id/answer4_btn"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="@+id/answer4_btn"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_menu_btn"
+        app:srcCompat="@drawable/speaker" />
+
+    <Button
+        android:id="@+id/answer2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/katuri"
+        android:text="2.코스모스"
+        android:textColor="@color/black"
+        android:textSize="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/answer1_btn"
+        app:layout_constraintStart_toEndOf="@+id/answer1_btn"
+        app:layout_constraintTop_toTopOf="@+id/answer1_btn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/toolbar_menu_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1132dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.18"
+        app:srcCompat="@drawable/toolbar_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

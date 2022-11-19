@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#ADFFFFFF"
+        android:fontFamily="@font/katuri"
+        android:gravity="center"
+        android:text="Read it!"
+        android:textColor="#000000"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"></TextView>
+
+    <Button
+        android:id="@+id/ebtn"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginEnd="204dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#E6B366"
+        android:drawableBottom="@drawable/theme_c"
+        android:fontFamily="@font/katuri"
+        android:text="빨간 모자"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.541" />
+
+    <Button
+        android:id="@+id/cbtn"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#FAEE84"
+        android:drawableBottom="@drawable/theme_a"
+        android:fontFamily="@font/katuri"
+        android:text="어린 왕자"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/dbtn"
+        app:layout_constraintEnd_toStartOf="@+id/dbtn"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/dbtn"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <Button
+        android:id="@+id/dbtn"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_btn"
+        android:backgroundTint="#DBE668"
+        android:drawableBottom="@drawable/theme_b"
+        android:fontFamily="@font/katuri"
+        android:text="피터팬"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ebtn"
+        app:layout_constraintEnd_toStartOf="@+id/ebtn"
+        app:layout_constraintTop_toTopOf="@+id/ebtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
