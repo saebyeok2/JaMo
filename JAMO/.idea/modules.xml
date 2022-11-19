@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JAMO_Front.iml" filepath="$PROJECT_DIR$/.idea/modules/JAMO_Front.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JAMO_Front.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JAMO_Front.app.iml" />
+    </modules>
+  </component>
+</project>
