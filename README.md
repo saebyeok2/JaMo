@@ -2,7 +2,7 @@
 난독증 아동을 위한 재택 치료 솔루션
 
 # 소개동영상
-[![Video Label](https://www.youtube.com/watch?v=YmOa3uJnWNo&t=1s/0.jpg)](https://www.youtube.com/watch?v=YmOa3uJnWNo&t=1s)
+[![Video Label](http://img.youtube.com/vi/YmOa3uJnWNo/0.jpg)](https://www.youtube.com/watch?v=YmOa3uJnWNo&t=1s)
 
 
 ## 개발기간
