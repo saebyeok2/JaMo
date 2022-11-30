@@ -1,5 +1,7 @@
-# JaMo 
-난독증 아동을 위한 재택 치료 솔루션
+# Read IT! 소개 
+난독증 아동을 위한 재택 훈련 어플입니다 
+
+난독증 선별검사와 난독증 아동들을 위한 음운인식 훈련을 지원합니다
 
 # 소개동영상
 [![Video Label](http://img.youtube.com/vi/YmOa3uJnWNo/0.jpg)](https://www.youtube.com/watch?v=YmOa3uJnWNo&t=1s)
