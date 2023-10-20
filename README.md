@@ -4,7 +4,7 @@
 난독증 진단검사를 통해 증상의 유무를 판단하고 난독증 아동들을 위한 다양한 흥미로운 훈련들을 지원합니다.
 
 ## 🗣️ 앱 소개 영상 
-[![Video Label](http://img.youtube.com/vi/YmOa3uJnWNo/0.jpg)](https://www.youtube.com/watch?v=YmOa3uJnWNo&t=1s)
+[![Video Label](http://img.youtube.com/vi/-Tm7UwkRDME/0.jpg)](https://www.youtube.com/watch?v=-Tm7UwkRDME)
 
 
 ## 🕖 개발 기간
@@ -17,7 +17,7 @@
 |김다빈|Android|https://github.com/kdb1217|
 |박민주|Android|https://github.com/minju1459|
 |임재민|Back-End|https://github.com/ljm1002|
-|정재윤|Back-End|https://github.com/Domino8269|
+|정재윤|Back-End|https://github.com/saebyeok2|
 |박준혁|Back-End|https://github.com/njm1250|
 
 ## 💡 주요 기능
@@ -40,9 +40,6 @@
 - Python,Flask, Visual Studio Code
 - End-to-End 한국어 음성 인식 툴킷 'KoSpeech'
 - Deep Speech 2
-
-## 🔗 개발 보고서 링크
-https://www.hanium.or.kr/portal/project/awardView.do
 
 ## Architecture Diagram
 <img width="644" alt="아키텍처 다이어그램" src="https://user-images.githubusercontent.com/84852135/204695038-0c71a3eb-8eae-4de1-bb01-143a58a73a53.png">
